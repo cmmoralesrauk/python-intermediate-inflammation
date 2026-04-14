@@ -1,4 +1,7 @@
 import pytest
+import numpy as np
+import numpy.testing as npt
+
 from inflammation.models import daily_mean
 
 @pytest.mark.parametrize(
