@@ -1,3 +1,4 @@
+import pytest
 from inflammation.models import daily_mean
 
 @pytest.mark.parametrize(
